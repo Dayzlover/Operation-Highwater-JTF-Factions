@@ -1,0 +1,9 @@
+As it has been stated before this mod was made for the Roleplay server Operation Highwater,
+and therefore the gear on the loadouts use them, before using the factions do the following:
+1. Install Tactical Flava (TF) and Forward Operators Gear (FOG) on your server. 
+2. Alternatively change the items on the loadouts in the loadouts .json files.
+3. Make sure all the loadout files are in your loadouts folder, unless you are only using 1 faction,
+then you only need to put that factions loadout in your loadouts folder.
+
+Note that the Loadouts, especially the Infantry/Riflemen ones have had issues spawning with their guns in the past.
+Also note that I may forget to remove the numbers so you may need ton remove the numbers from the loadout file names.
