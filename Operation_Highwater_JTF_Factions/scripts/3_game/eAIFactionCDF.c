@@ -4,7 +4,7 @@ class eAIFactionCDF : eAIFaction
 	void eAIFactionCDF()
 	{
 		m_Name = "CDF";
-		m_Loadout = "CDFInfantryLoadout","CDFMedicLoadout","CDFMarksmenLoadout","CDFMachineGunnerLoadout";
+		m_Loadout = "CDFInfantryLoadout";
 		m_IsGuard = true;
 		m_HasUnlimitedStamina = true;
 	}

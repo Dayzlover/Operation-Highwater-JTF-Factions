@@ -4,7 +4,7 @@ class eAIFactionUSMC : eAIFaction
 	void eAIFactionUSMC()
 	{
 		m_Name = "USMC";
-		m_Loadout = "USMCRifleman","USMCMedicLoadout","USMCRadiomenLoadout","USMCMarksmenLoadout","USMCAutoRiflemenLoadout";
+		m_Loadout = "USMCRifleman";
 		m_IsGuard = true;
 		m_HasUnlimitedStamina = true;
 	}
