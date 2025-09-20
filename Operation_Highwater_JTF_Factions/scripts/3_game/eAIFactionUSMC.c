@@ -8,10 +8,11 @@ class eAIFactionUSMC : eAIFaction
 		m_IsGuard = true;
 		m_HasUnlimitedStamina = true;
 	}
+
 	// Used to check if the target Faction should be considered Friendly
 	override bool IsFriendly(notnull eAIFaction other)
 	{
-		// If you dont want your own Faction to kill each others make them friendly to their own Faction
+		// Prevents friendly fire within the same faction
 		if (other.IsInherited(eAIFactionUSMC)) return true;
 		if (other.IsInherited(eAIFactionCDF)) return true;
 		if (other.IsInherited(eAIFactionCivilian)) return true;
@@ -32,11 +33,12 @@ class eAIFactionUSMC : eAIFaction
 		if (other.IsInherited(eAIFactionFireFighter)) return true;
 		if (other.IsInherited(eAIFactionPolice)) return true;
 		if (other.IsInherited(eAIFactionNBC)) return false;
+
 		return false;
 	}
+
+	override string GetDisplayName()
 	{
-		return other.IsInherited(DayZCreatureAI);
-	}
 		return "#USMC";
 	}
 };
