@@ -29,7 +29,6 @@ class eAIFactionCDF : eAIFaction
 		if (other.IsInherited(eAIFactionPlayerSurvivor)) return false;
 		if (other.IsInherited(eAIFactionNorth)) return false;
 		if (other.IsInherited(eAIFactionSouth)) return false;
-		if (other.IsInherited(eAIFactionHumans)) return false;
 		if (other.IsInherited(eAIFactionFireFighter)) return true;
 		if (other.IsInherited(eAIFactionPolice)) return true;
 		if (other.IsInherited(eAIFactionNBC)) return false;
@@ -42,3 +41,4 @@ class eAIFactionCDF : eAIFaction
 		return "#CDF";
 	}
 };
+
